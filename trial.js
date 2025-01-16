@@ -2,7 +2,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/PoPLab-McGill/nari.attempt9@main/
     var API = new APIConstructor();
 
     return stiatExtension({
-        remindErrorText: '<p align="center" style="font-size:0.2em; font-family:arial;">' +
+        remindErrorText: '<p align="center" style="font-size:0.6em; font-family:arial;">' +
             'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
             'Press the other key to continue.<p/>',
         category: {
