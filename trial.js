@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://cdn.jsdelivr.net/gh/PoPLab-McGill/nari.attempt10@main/extension.js'], function(APIConstructor, stiatExtension){
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/PoPLab-McGill/nari.attempt11@main/extension.js'], function(APIConstructor, stiatExtension){
     var API = new APIConstructor();
 
     return stiatExtension({
@@ -17,28 +17,24 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/PoPLab-McGill/nari.attempt10@main
             css: {color: '#31b404', 'font-size': '3em'}
         },
         attribute1: {
-            name: 'Unpleasant',
+            name: 'Nagative',
             title: {media: {word: 'Negative'}, css: {color: '#31b404', 'font-size': '2em'}, height: 7},
             media: [
-                {word: 'Bomb'},
-                {word: 'Abuse'},
-                {word: 'Sadness'},
-                {word: 'Pain'},
-                {word: 'Poison'},
-                {word: 'Grief'}
+                    { word: 'Terrible' },
+                    { word: 'Angry' },
+                    { word: 'Hate' },
+                    { word: 'Evil' }
             ],
             css: {color: '#31b404', 'font-size': '3em'}
         },
         attribute2: {
-            name: 'Pleasant',
+            name: 'Positive',
             title: {media: {word: 'Positive'}, css: {color: '#31b404', 'font-size': '2em'}, height: 7},
             media: [
-                {word: 'Paradise'},
-                {word: 'Pleasure'},
-                {word: 'Cheer'},
-                {word: 'Wonderful'},
-                {word: 'Splendid'},
-                {word: 'Love'}
+                    { word: 'Love' },
+                    { word: 'Joy' }, 
+                    { word: 'Pleasure' },
+                    { word: 'Peace' }
             ],
             css: {color: '#31b404', 'font-size': '3em'}
         }
