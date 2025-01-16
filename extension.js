@@ -40,12 +40,10 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					height: 4
 				},
 				media: [
-					{word: 'Bomb'},
-					{word: 'Abuse'},
-					{word: 'Sadness'},
-					{word: 'Pain'},
-					{word: 'Poison'},
-					{word: 'Grief'}
+                    { word: 'Terrible' },
+                    { word: 'Angry' },
+                    { word: 'Hate' },
+                    { word: 'Evil' }
 				],
 				css: {color: '#31b404', 'font-size': '2em'}
 			},
@@ -57,12 +55,10 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					height: 4
 				},
 				media: [
-					{word: 'Paradise'},
-					{word: 'Pleasure'},
-					{word: 'Cheer'},
-					{word: 'Wonderful'},
-					{word: 'Splendid'},
-					{word: 'Love'}
+                    { word: 'Love' },
+                    { word: 'Joy' }, 
+                    { word: 'Pleasure' },
+                    { word: 'Peace' }
 				],
 				css: {color: '#31b404', 'font-size': '2em'}
 			},
