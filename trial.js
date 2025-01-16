@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://cdn.jsdelivr.net/gh/PoPLab-McGill/nari.attempt9@main/extension.js'], function(APIConstructor, stiatExtension){
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/PoPLab-McGill/nari.attempt10@main/extension.js'], function(APIConstructor, stiatExtension){
     var API = new APIConstructor();
 
     return stiatExtension({
